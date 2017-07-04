@@ -200,12 +200,28 @@ ul li a:hover, ul li a:focus{
 		position:relative;
 		margin-top:-47px;
 	}
+	
+	li ul.choose-language.for-private-page{
+		/*position:absolute;*/
+		margin-left:-50px;
+	}
+
+	.logout{
+		margin-left:-100px;
+	}
+
 }
+
+/*@media screen and (min-width: 768px) and (max-width: 838px){
+	li ul.choose-language{
+		margin-left: 100px;
+	}
+}*/
 
 @media screen and (min-width: 800px) and (max-width: 991px){
 	.shift-navbar{
 		position: relative;
-		left:10%;
+		/*left:10%;*/
 		margin-top:-47px;
 	}
 }
